@@ -7,15 +7,8 @@ Progressive enhancement is a strategy in web design that puts emphasis on web co
 
 This strategy involves separating the presentation semantics from the content, with the presentation being implemented in one or more optional layers, activated based on aspects of the browser or Internet connection of the client. In practice, this means serving content through HTML, the "lowest common denominator" of web standards, and applying styling and animation through CSS to the technically possible extent, then applying further enhancements through JavaScript. Deprecated Adobe Flash could be thought of as having shared the final spot with JavaScript while it was widely in use. Since web browsers can load site features to the extent supported rather than failing to load the entire site due to one error or missing feature in JavaScript, a progressively enhancing site is more stable and backwards compatible. 
 
-
-![Progressive enhancement](https://upload.wikimedia.org/wikipedia/commons/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg)
-
 <p align="center">
-  <img width="460" height="300" src="[https://picsum.photos/460/300](https://upload.wikimedia.org/wikipedia/commons/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg)">
+  <img width="460" height="300" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg">
 </p>
-
-This site was built using [CREWES Matlab Toolbox and Textbook](https://www.crewes.org/ResearchLinks/FreeSoftware/).
-
-
 
 [^1]: [My reference](https://en.wikipedia.org/wiki/Progressive_enhancement).
