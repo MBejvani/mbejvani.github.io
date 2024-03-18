@@ -11,4 +11,4 @@ This strategy involves separating the presentation semantics from the content, w
   <img width="460" height="300" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg">
 </p>
 
-[^1]: [My reference](https://en.wikipedia.org/wiki/Progressive_enhancement).
+[^1]: [Wikipedia/Progressive enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement).
