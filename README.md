@@ -10,7 +10,9 @@ This strategy involves separating the presentation semantics from the content, w
 
 ![Progressive enhancement](https://upload.wikimedia.org/wikipedia/commons/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg)
 
-<img align="right" width="100" height="100" src="[https://picsum.photos/100/100](https://upload.wikimedia.org/wikipedia/commons/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg)">
+<p align="center">
+  <img width="460" height="300" src="[https://picsum.photos/460/300](https://upload.wikimedia.org/wikipedia/commons/c/cd/Progressive_enhancement_web_design_pyramid_%28HTML%2C_CSS%2C_JS%29.svg)">
+</p>
 
 This site was built using [CREWES Matlab Toolbox and Textbook](https://www.crewes.org/ResearchLinks/FreeSoftware/).
 
