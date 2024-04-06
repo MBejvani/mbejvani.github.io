@@ -4,15 +4,48 @@
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
 html {
-  font-size: 62.5%;
+  font-size: 52.5%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: sans-serif, "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
-  color: #FFFFFF;
+
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  max-width:800px;
+  margin:25px auto;
+  height: auto;
+  background: #221d2d;
+  color: #fdfcfd;
+  font-family: sans-serif, "Roboto", "HelveticaNeue";
+  /* "Euclid Circular A", "Poppins"; */
 }
+
+/**
+ * Layout styles
+ */
+
+/* Full size background image */
+html, #container, .inner { background-color:transparent;}
+html {
+  background: #221d2d;
+  background-size:cover;
+}
+
+header, footer{
+  padding: 1px;
+  color:#FFFFFF; 
+}
+
+
+/* sans-serif, "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial; */
 
 /**
  * Links
@@ -22,44 +55,9 @@ a {
   text-decoration: none; 
   color:#EF6D3D;
 }
-a:focus {
-  outline: thin dotted;
-}
 
 small {
   font-size: 75%;
-}
-
-/**
- * Headings
- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1;
-  text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
-  margin-top: 0;
-  margin-bottom: 2rem;
-  font-weight: 300;
-}
-h1 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
-h2 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h3 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-h4 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
-h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
-
-/**
- * Paragraphs
- */
-p {
-  margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
-}
-p + p {
-
 }
 
 /**
@@ -83,28 +81,9 @@ blockquote {
   font-size:1.8rem;
 }
 blockquote p:last-child {
-  margin-bottom: 0;  
+  margin-bottom: 5;  
 }
 
-/**
- * Layout styles
- */
-
-/* Full size background image */
-html, #container, .inner { background-color:transparent;}
-html {
-  background:url(./files/background1.jpg) center center no-repeat fixed;
-  background-size:cover;
-}
-body {
-  max-width:800px;
-  margin:25px auto;
-}
-header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
-}
 
 /* Menu Links */
 ul.main-menu {
@@ -112,7 +91,7 @@ ul.main-menu {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   list-style: none;
 }
 ul.main-menu li a {
@@ -136,6 +115,180 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
+/* ------------------------------------------------- */
+.cad {
+  display: flex;
+  align-items: center;
+  width: 75vw;
+  max-width: 650px;
+  padding: 50px 30px 50px 20px;
+  border-radius: 24px;
+}
+.cad img {
+  max-width: 280px;
+  width: 35vw;
+  height: 300px;
+  object-fit: cover;
+  margin-left: -150px;
+  margin-right: 30px;
+  border-radius: inherit;
+}
+.cad h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
 
+.cad h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.75;
+}
+
+.cad p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  opacity: 0.5;
+}
+
+.cad button {
+  border: 1px solid #f8f8f8;
+  background: transparent;
+  color: #f8f8f8;
+  font-family: inherit;
+  padding: 16px 26px;
+  font-size: 16px;
+  border-radius: 40px;
+}
+@media (width <= 600px) {
+  .cad {
+    margin: 0 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .cad h2 {
+    margin-right: 0;
+    font-size: 26px;
+  }
+
+  .cad img {
+    margin: -100px 0 30px 0;
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+  }
+
+  .cad p {
+    max-width: 360px;
+  }
+}
+
+@media (width <= 440px) {
+  .cad img {
+    height: 45vw;
+    width: 45vw;
+    border-radius: 50%;
+    margin: -140px 0 30px 0;
+  }
+}
+
+/* --------------------------------------- */
+.card {
+  /* display: flex; */
+  align-items: center;
+  width: 75vw;
+  max-width: 650px;
+  padding: 50px 30px 50px 20px;
+  background: #121017;
+  border-radius: 24px;
+}
+
+/* ------------------------------------------------- */
+.ca {
+  /* display: flex; */
+  align-items: center;
+  width: 75vw;
+  max-width: 650px;
+  padding: 50px 30px 50px 20px;
+}
+
+.ca h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.ca h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.75;
+}
+
+.ca p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+  margin: 10px 40px 30px 10px;
+  /* margin-bottom: 30px; */
+  opacity: 0.5;
+}
+
+.ca button {
+  border: 1px solid #f8f8f8;
+  background: transparent;
+  color: #f8f8f8;
+  font-family: inherit;
+  padding: 16px 26px;
+  font-size: 16px;
+  border-radius: 40px;
+}
+@media (width <= 600px) {
+  .ca {
+    margin: 0 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .ca h2 {
+    margin-right: 0;
+    font-size: 26px;
+  }
+
+  .ca img {
+    margin: -100px 0 30px 0;
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+  }
+
+  .ca p {
+    max-width: 360px;
+  }
+}
+
+@media (width <= 440px) {
+  .ca img {
+    height: 45vw;
+    width: 45vw;
+    border-radius: 50%;
+    margin: -140px 0 30px 0;
+  }
+}
 
 
