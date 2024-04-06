@@ -1,6 +1,11 @@
-# A simple Website
-This is my personal homepage. Its template is built based on the template provided by https://github.com/cplmakerlab and can be found at https://github.com/cplmakerlab/simple-website-template. https://github.com/frontend-joe/css-components
-You can access the site through the link: https://mbejvani.github.io
+# Mohammad's Corner of the Web
+This homepage serves as my personal space on the web, and I am pleased to share it with you. I utilized a template from https://github.com/cplmakerlab/simple-website-template as the foundation for my site, and I encourage you to explore the template further by visiting the link provided.
+
+To enhance the design of my homepage, I incorporated some CSS components from https://github.com/frontend-joe/css-components. Specifically, I made use of the .card CSS class, which allowed me to create visually appealing and informative sections on my site.
+
+I am confident that the combination of the starting template, which includes a menu, header, and footer, and the .card CSS class has resulted in a cohesive and professional-looking design.
+
+I invite you to visit my homepage by following this link: https://mbejvani.github.io. I hope you find it informative and engaging.
 
 ## Progressive enhancement[^1]
 Progressive enhancement is a strategy in web design that puts emphasis on web content first, allowing everyone to access the basic content and functionality of a web page, while users with additional browser features or faster Internet access receive the enhanced version instead. This strategy speeds up loading and facilitates crawling by web search engines, as text on a page is loaded immediately through the HTML source code rather than having to wait for JavaScript to initiate and load the content subsequently, meaning content ready for consumption "out of the box" is served immediately, and not behind additional layers. 
