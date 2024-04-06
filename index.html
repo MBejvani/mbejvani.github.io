@@ -1,34 +1,33 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <!-- Page setup -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Mohammad Bejvani</title>
-    <meta name="description" content="Mohammad Bejvani Geophysicist">
-    <meta name="author" content="Mohammad Bejvani">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="./files/logo.png">
-  
+    <meta name="description" content="Mohammad Bejvani's Personal Homepage" />
+    <meta name="author" content="Mohammad Bejvani" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="./files/logo.png" />
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
     <!--for icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />  
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
-
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>   
     <!-- Want to add Bootstrap? -->
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
   </head>
   
-  <body>
-
+  <body class="card">
     <header id="header">
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
@@ -37,46 +36,58 @@
         <li><a href="https://github.com/MBejvani">Codes</a></li>
         <li><a href="https://scholar.google.com/citations?user=lYZrnVIAAAAJ&hl=en">Publications</a></li>
         <li><a href="./files/cv_bejvani.pdf">CV</a></li>
+        <li><a href="#siesmo">Siesmo</a></li>
       </ul>                 
     </header>
-   
-    <div id="container">
 
-      <div class="inner">
-        <div id="content"> 
-
-          <div id="home" class="content-region hide">
-            <h1>Hi, I'm Mohammad Bejvani,<br>A Geophysicist.</h1>
-            <div style="display:inline-block; min-width:2.2cm; height:3.8cm; align: right" >
-              <img src="./files/photo.jpg">
-            </div>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <p>
-              I grew up in Karaj and received my M.Sc degree in Geophysics from the University of Tehran in 2014. 
-              During the M.Sc program, my research was focused on spectral decomposition. I was working under the supervision of Dr. 
-              Ali Gholami and Dr. Hamidreza Siahkoohi at the Institute of Geophysics. My scientific journey began with my undergraduate 
-              in physics, leading to my Master's research in the invasion and exploration of geophysics within a computational seismology group.
-              <br>
-              <h2>Interests:</h2>
-              <ul>
-                <li>Signal Processing</li>
-                <li>Seismic Imaging</li>
-                <li>Inverse problems and Regularization</li>
-                <li>Numerical analysis and Simulation</li>
-                <li>AI and Machine Learning</li>
-                <li>Near-Surface Geophysics</li>
-              </ul>
-            </p>
-          </div>
-          
+    <div id="home" class="content-region hide">
+      <div class="cad" >
+        <img src="./files/photo.jpg">
+        <div class="ca">
+          <h2>Mohammad Bejvani</h2>
+          <h3>Geophysicist</h3>
+          <!-- <p>
+            Empowering users through captivating interfaces, turning ideas into
+            pixel-perfect realities.
+          </p> -->
         </div>
       </div>
     </div>
-    
-    <footer>  
-      <table style="width:30%">
+
+    <div id="about" class="content-region hide">
+      <div class="ca">
+        <p>
+          I grew up in Karaj and received my M.Sc degree in Geophysics from the University of Tehran in 2014. 
+          During the M.Sc program, my research was focused on spectral decomposition. I was working under the supervision of Dr. 
+          Ali Gholami and Dr. Hamidreza Siahkoohi at the Institute of Geophysics. My scientific journey began with my undergraduate 
+          in physics, leading to my Master's research in the invasion and exploration of geophysics within a computational seismology group.
+        </p>
+        <button><a href="./files/cv_bejvani.pdf">CV</a></button>
+      </div>
+    </div>
+
+    <div id="siesmo" class="content-region hide">
+      <div class="cad" >
+        <img src="./files/background1.jpg">
+        <div class="cad">
+          <P>
+            <h3>Intrests:</h3>
+            <blockquote>
+              Signal Processing<br>
+              Seismic Imaging<br>
+              Inverse problems and Regularization<br>
+              Numerical analysis and Simulation<br>
+              AI and Machine Learning<br>
+              Near-Surface Geophysics<br>
+            </blockquote>
+          </P>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">  
+      <table align="right" style="width:40%">
         <tr>
           <td><a href="mailto:mohamadbejvani@gmail.com"><i class="fa fa-envelope" style="font-size:24px"></i></a></td>
           <td><a href="https://github.com/MBejvani"><i class="fa fa-github" style="font-size:24px"></i></a></td>
