@@ -35,7 +35,7 @@ body {
 }
 
 .card h2 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   margin-top: 0;
   margin-right: 30px;
@@ -46,14 +46,14 @@ body {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 .card p {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 30px;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .card button {
@@ -62,7 +62,7 @@ body {
   color: #FFFFFF;
   font-family: inherit;
   padding: 16px 26px;
-  font-size: 20px;
+  font-size: 24px;
   border-radius: 40px;
 }
 
