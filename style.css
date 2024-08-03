@@ -8,8 +8,8 @@ body {
   justify-content: center;
   margin: 0;
   height: 100vh;
-  background: #221d2d;
-  color: #fdfcfd;
+  background: #000000;
+  color: #020092;
   font-family: "Euclid Circular A", "Poppins";
 }
 
@@ -38,8 +38,8 @@ body {
   font-size: 34px;
   font-weight: 400;
   margin-top: 0;
-  margin-right: 30px;
-  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 .card h3 {
