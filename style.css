@@ -9,7 +9,7 @@ body {
   margin: 0;
   height: 100vh;
   background: #020092;
-  color: #000000;
+  color: #FFFFFF;
   font-family: "Euclid Circular A", "Poppins";
 }
 
@@ -18,8 +18,8 @@ body {
   align-items: center;
   width: 75vw;
   max-width: 650px;
-  padding: 50px 10px 50px 20px;
-  background: #1f1cb6;
+  padding: 50px 30px 10px 20px;
+  background: #000000;
   border-radius: 24px;
 }
 
