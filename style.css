@@ -19,7 +19,7 @@ body {
   width: 75vw;
   max-width: 650px;
   padding: 50px 30px 50px 20px;
-  background: #121017;
+  background: #1f1cb6;
   border-radius: 24px;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .card h2 {
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 400;
   margin-top: 0;
   margin-right: 30px;
@@ -43,14 +43,14 @@ body {
 }
 
 .card h3 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   margin: 0;
   opacity: 0.75;
 }
 
 .card p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 30px;
   opacity: 0.5;
