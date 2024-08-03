@@ -1,9 +1,5 @@
-# Mohammad's Corner of the Web
-This homepage serves as my personal space on the web, and I am pleased to share it with you. I utilized a template from https://github.com/cplmakerlab/simple-website-template as the foundation for my site, and I encourage you to explore the template further by visiting the link provided.
-
+# Mohammad's Introduction
 To enhance the design of my homepage, I incorporated some CSS components from https://github.com/frontend-joe/css-components. Specifically, I made use of the .card CSS class, which allowed me to create visually appealing and informative sections on my site.
-
-I am confident that the combination of the starting template, which includes a menu, header, and footer, and the .card CSS class has resulted in a cohesive and professional-looking design.
 
 I invite you to visit my homepage by following this link: https://mbejvani.github.io. I hope you find it informative and engaging.
 
