@@ -8,7 +8,7 @@ body {
   justify-content: left;
   margin: 0;
   height: 100vh;
-  background: #011f60;
+  background: #011644;
   color: #FFFFFF;
   font-family: "Euclid Circular A", "Poppins";
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .card h2 {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 400;
   margin-top: 0;
   margin-right: 30px;
@@ -43,14 +43,14 @@ body {
 }
 
 .card h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   margin: 0;
   opacity: 0.75;
 }
 
 .card p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   margin-bottom: 30px;
   opacity: 0.5;
