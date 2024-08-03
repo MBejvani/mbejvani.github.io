@@ -5,7 +5,7 @@
 body {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   margin: 0;
   height: 100vh;
   background: #011644;
@@ -15,10 +15,10 @@ body {
 
 .card {
   display: flex;
-  align-items: center;
+  align-items: left;
   width: 75vw;
   max-width: 650px;
-  padding: 50px 30px 10px 20px;
+  padding: 50px 30px 10px 50px;
   background: #000000;
   border-radius: 24px;
 }
@@ -29,7 +29,7 @@ body {
   height: 300px;
   object-fit: cover;
   margin-left: -100px;
-  margin-right: 70px;
+  margin-right: 30px;
   border-radius: inherit;
   box-shadow: 0 60px 40px rgb(0 0 0 / 8%);
 }
