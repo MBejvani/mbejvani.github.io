@@ -43,14 +43,14 @@ body {
 }
 
 .card h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0;
   opacity: 0.75;
 }
 
 .card p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 30px;
   opacity: 0.5;
