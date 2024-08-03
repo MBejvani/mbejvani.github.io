@@ -4,13 +4,13 @@
 
 body {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   margin: 0;
   height: 100vh;
-  background: #020092;
+  background: #5f0153;
   color: #FFFFFF;
-  font-family: "Euclid Circular A", "Poppins";
+  font-family: "sans-serif", "Roboto", "HelveticaNeue";
 }
 
 .card {
@@ -18,7 +18,7 @@ body {
   align-items: center;
   width: 75vw;
   max-width: 650px;
-  padding: 50px 30px 10px 20px;
+  padding: 50px 30px 50px 20px;
   background: #000000;
   border-radius: 24px;
 }
