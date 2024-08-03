@@ -15,7 +15,7 @@ body {
 
 .card {
   display: flex;
-  align-items: left;
+  align-items: center;
   width: 75vw;
   max-width: 650px;
   padding: 60px 30px 50px 20px;
@@ -35,7 +35,7 @@ body {
 }
 
 .card h2 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 400;
   margin-top: 0;
   margin-right: 30px;
