@@ -1,209 +1,20 @@
-/**
- * Typography & Text styles
- */
-
-/* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
-html {
-  font-size: 52.5%;
-}
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
-  font-weight: 400;
-
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: center;
-  max-width:800px;
-  margin:25px auto;
-  height: auto;
+  margin: 0;
+  height: 100vh;
   background: #221d2d;
   color: #fdfcfd;
-  font-family: sans-serif, "Roboto", "HelveticaNeue";
-  /* "Euclid Circular A", "Poppins"; */
+  font-family: "Euclid Circular A", "Poppins";
 }
 
-/**
- * Layout styles
- */
-
-/* Full size background image */
-html, #container, .inner { background-color:transparent;}
-html {
-  background: #221d2d;
-  background-size:cover;
-}
-
-header, footer{
-  padding: 1px;
-  color:#FFFFFF; 
-}
-
-
-/* sans-serif, "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial; */
-
-/**
- * Links
- */
-a {
-  font-weight: normal;
-  text-decoration: none; 
-  color:#EF6D3D;
-}
-
-small {
-  font-size: 75%;
-}
-
-/**
- * Quotes & Blockquotes
- */
-q {
-  quotes: '\00201C' '\00201D';
-}
-q:before {
-  content: open-quote;
-}
-q:after {
-  content: close-quote;
-}
-
-blockquote {
-  /*background-color: #F8F8F8;*/
-  border-left: 2px solid #AFC0D2;
-  margin: 1.6em 10%;
-  padding: .75em 1em;
-  font-size:1.8rem;
-}
-blockquote p:last-child {
-  margin-bottom: 5;  
-}
-
-
-/* Menu Links */
-ul.main-menu {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
-}
-ul.main-menu li a {
-  margin-right:20px;
-  font-size:2.0rem;
-  border-bottom: solid transparent 3px;
-  color:#cfd2da;
-}
-ul.main-menu li a:hover {
-  color:#FFFFFF;
-}
-ul.main-menu li a.active {
-  color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
-}
-
-/* Utility classes */
-.hide {
-  display:none;
-}
-.show {
-  display:block;
-}
-/* ------------------------------------------------- */
-.cad {
-  display: flex;
-  align-items: center;
-  width: 75vw;
-  max-width: 650px;
-  padding: 50px 30px 50px 20px;
-  border-radius: 24px;
-}
-.cad img {
-  max-width: 280px;
-  width: 35vw;
-  height: 300px;
-  object-fit: cover;
-  margin-left: -150px;
-  margin-right: 30px;
-  border-radius: inherit;
-}
-.cad h2 {
-  font-size: 26px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
-
-.cad h3 {
-  font-size: 16px;
-  font-weight: 400;
-  margin: 0;
-  opacity: 0.75;
-}
-
-.cad p {
-  font-size: 14px;
-  font-weight: 400;
-  margin-bottom: 30px;
-  opacity: 0.5;
-}
-
-.cad button {
-  border: 1px solid #f8f8f8;
-  background: transparent;
-  color: #f8f8f8;
-  font-family: inherit;
-  padding: 16px 26px;
-  font-size: 16px;
-  border-radius: 40px;
-}
-@media (width <= 600px) {
-  .cad {
-    margin: 0 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 60px;
-    width: 100%;
-    text-align: center;
-    flex-direction: column;
-  }
-
-  .cad h2 {
-    margin-right: 0;
-    font-size: 26px;
-  }
-
-  .cad img {
-    margin: -100px 0 30px 0;
-    width: 100%;
-    max-width: 1000px;
-    height: 250px;
-  }
-
-  .cad p {
-    max-width: 360px;
-  }
-}
-
-@media (width <= 440px) {
-  .cad img {
-    height: 45vw;
-    width: 45vw;
-    border-radius: 50%;
-    margin: -140px 0 30px 0;
-  }
-}
-
-/* --------------------------------------- */
 .card {
-  /* display: flex; */
+  display: flex;
   align-items: center;
   width: 75vw;
   max-width: 650px;
@@ -212,40 +23,40 @@ ul.main-menu li a.active {
   border-radius: 24px;
 }
 
-/* ------------------------------------------------- */
-.ca {
-  /* display: flex; */
-  align-items: center;
-  width: 75vw;
-  max-width: 650px;
-  padding: 50px 30px 50px 20px;
+.card img {
+  max-width: 280px;
+  width: 35vw;
+  height: 300px;
+  object-fit: cover;
+  margin-left: -100px;
+  margin-right: 70px;
+  border-radius: inherit;
+  box-shadow: 0 60px 40px rgb(0 0 0 / 8%);
 }
 
-.ca h2 {
-  font-size: 26px;
+.card h2 {
+  font-size: 30px;
   font-weight: 400;
   margin-top: 0;
   margin-right: 30px;
   margin-bottom: 10px;
 }
 
-.ca h3 {
-  font-size: 16px;
+.card h3 {
+  font-size: 18px;
   font-weight: 400;
   margin: 0;
   opacity: 0.75;
 }
 
-.ca p {
-  font-size: 14px;
+.card p {
+  font-size: 16px;
   font-weight: 400;
-  text-align: justify;
-  margin: 10px 40px 30px 10px;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
   opacity: 0.5;
 }
 
-.ca button {
+.card button {
   border: 1px solid #f8f8f8;
   background: transparent;
   color: #f8f8f8;
@@ -254,8 +65,9 @@ ul.main-menu li a.active {
   font-size: 16px;
   border-radius: 40px;
 }
+
 @media (width <= 600px) {
-  .ca {
+  .card {
     margin: 0 40px;
     padding-left: 50px;
     padding-right: 50px;
@@ -265,30 +77,28 @@ ul.main-menu li a.active {
     flex-direction: column;
   }
 
-  .ca h2 {
+  .card h2 {
     margin-right: 0;
     font-size: 26px;
   }
 
-  .ca img {
+  .card img {
     margin: -100px 0 30px 0;
     width: 100%;
     max-width: 1000px;
     height: 250px;
   }
 
-  .ca p {
+  .card p {
     max-width: 360px;
   }
 }
 
 @media (width <= 440px) {
-  .ca img {
+  .card img {
     height: 45vw;
     width: 45vw;
     border-radius: 50%;
     margin: -140px 0 30px 0;
   }
 }
-
-
