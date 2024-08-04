@@ -66,6 +66,8 @@ body {
   border-radius: 40px;
 }
 
+a.nounderline {text-decoration: none; }
+
 @media (width <= 600px) {
   .card {
     margin: 0 40px;
